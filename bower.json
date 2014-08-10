@@ -1,0 +1,28 @@
+{
+  "name": "colors",
+  "version": "0.1.0",
+  "authors": [
+    "Lucas Videla <videla.lucas@gmail.com>"
+  ],
+  "description": "A minimalist colors calculation library",
+  "main": "colors.js",
+  "keywords": [
+    "colors",
+    "calculator",
+    "lighten",
+    "darken",
+    "triads",
+    "complementaries"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.github.com/wecodeio/colors",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "spec"
+  ],
+  "devDependencies": {
+    "jasmine": "~2.0.1"
+  }
+}

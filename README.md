@@ -14,7 +14,7 @@ For now, this repo only has code thrown into an editor. It needs to be polished,
 
 If regarding all the warnings about this experimental project you want to use it as is right now, you can use it as follows:
 
-```javacript
+```javascript
 var red = new color("#ff0000");
 var lightRed = red.lighten(0.2);   // 20% lighter red
 var lighterRed = red.lighten(0.7); // 70% lighter red
@@ -23,7 +23,7 @@ var lightestRed = red.lighten(1);  // 100% lighter red (i.e. white)
 
 Pretty simple. But what if you want to apply those calculations for some useful end?
 
-```javacript
+```javascript
 document.body.backgroundColor = lightRed.css();
 ```
 

@@ -19,6 +19,7 @@ var red = color("#ff0000");
 var lightRed = red.lighten(0.2);   // 20% lighter red
 var darkRed = red.darken(0.7); // 70% darker red
 var lightestRed = red.lighten(1);  // 100% lighter red (i.e. white)
+var complementary = red.complementary(); // complementary (i.e. turquoise)
 ```
 
 Pretty simple. But what if you want to apply those calculations for some useful end?
@@ -31,7 +32,6 @@ Done. Background color is 70% dark red now. And [Vanilla JS&trade;](http://vanil
 
 ## Roadmap
 
-* Add darken feature
 * Sort code
 * Review DSL. Expect changes, then!
 

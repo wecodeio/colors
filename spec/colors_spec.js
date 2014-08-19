@@ -45,3 +45,11 @@ describe("When color is darken", function(){
     expect(color("#ff0000").darken(1).css()).toEqual("#000000");
   });
 });
+
+describe("When color is complemented", function(){
+  it("returns complementary color", function(){
+    expect(color("#ff0000").complementary().css()).toEqual("#00ffff");
+    expect(color("#00ff00").complementary().css()).toEqual("#ff00ff");
+    expect(color("#0000ff").complementary().css()).toEqual("#ffff00");
+  });
+});
